@@ -43,7 +43,7 @@ body{
 #homelink a{
     font-size: 1em;
     font-family: 'Roboto', sans-serif;
-    text-decoration: underline;
+    text-decoration: none;
     color: black;
     margin: 1em;
 }
