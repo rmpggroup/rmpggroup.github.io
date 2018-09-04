@@ -5,33 +5,47 @@ body{
     margin: auto;
     max-width: 50em;
 }
-#title{
-    font-size: 1em;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
+#rmpg{
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    margin-top: 35vh;
+    text-align: center;
+}
+#frontlinkspan{
     margin: auto;
     margin-top: 1em;
-    text-decoration: none;
-    color: black;
+    text-align: center;
 }
-#sub{
+#frontlinks{
     font-size: 1em;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    margin: auto;
-}
-#links a{
-    display: inline-block;
-    /*positioning*/
-    margin-top: 1em;
-    /*text decoration*/
+    font-family: 'Roboto', sans-serif;
     text-decoration: underline;
     color: black;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
+    margin: 1em;
+}
+/*roster-discord*/
+#head{
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    text-align: center;
+}
+#homelinkspan{
+    margin: auto;
+    text-align: center;
+}
+#homelink a{
     font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: underline;
+    color: black;
+    margin: 1em;
 }
 iframe{
     width: 100%;
-    height: 40em;
+    height: 100vh;
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
