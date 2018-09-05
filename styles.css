@@ -45,7 +45,7 @@ body{
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
     color: black;
-    margin: 1em;
+    margin: auto;
 }
 iframe{
     width: 100%;
@@ -67,7 +67,7 @@ iframe{
 }
 
 .cl-effect-1 a::before {
-	margin-right: 10px;
+    margin-right: .3em;
 	content: '[';
 	-webkit-transform: translateX(20px);
 	-moz-transform: translateX(20px);
@@ -75,7 +75,7 @@ iframe{
 }
 
 .cl-effect-1 a::after {
-	margin-left: 10px;
+    margin-left: .3em;
 	content: ']';
 	-webkit-transform: translateX(-20px);
 	-moz-transform: translateX(-20px);
