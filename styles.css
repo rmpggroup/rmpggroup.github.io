@@ -1,25 +1,42 @@
-html{
-    background-color: #f2f2f2;
-}
+/*-------------------*/
+/*-content+background*/
+/*-------------------*/
+
 body{
     margin: auto;
-    max-width: 50em;
+    background-image: url(background3.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
 }
+
+#contentcontainer{
+    margin: 0 auto;
+    padding: 0 auto;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(240, 240, 240, .85)
+}
+
 /*-------------------*/
 /*-----frontpage-----*/
 /*-------------------*/
+
 #rmpg{
     font-size: 2em;
     font-family: 'Roboto', sans-serif;
     margin: auto;
-    margin-top: 35vh;
+    padding-top: 35vh;
     text-align: center;
 }
+
 #frontlinkspan{
     margin: auto;
     margin-top: 1em;
     text-align: center;
 }
+
 #frontlinks{
     font-size: 1em;
     font-family: 'Roboto', sans-serif;
@@ -27,36 +44,11 @@ body{
     color: black;
     margin: 1em;
 }
-/*-------------------*/
-/*--roster--discord--*/
-/*-------------------*/
-#head{
-    font-size: 2em;
-    font-family: 'Roboto', sans-serif;
-    margin: auto;
-    text-align: center;
-}
-#homelinkspan{
-    margin: auto;
-    text-align: center;
-}
-#homelink a{
-    font-size: 1em;
-    font-family: 'Roboto', sans-serif;
-    text-decoration: none;
-    color: black;
-    margin: auto;
-}
-iframe{
-    width: 100%;
-    height: 100vh;
-    margin: auto;
-    margin-top: 1em;
-    margin-bottom: 1em;
-}
+
 /*-------------------*/
 /*----link effect----*/
 /*-------------------*/
+
 .cl-effect-1 a::before,
 .cl-effect-1 a::after {
 	display: inline-block;
@@ -90,4 +82,39 @@ iframe{
 	-webkit-transform: translateX(0px);
 	-moz-transform: translateX(0px);
 	transform: translateX(0px);
+}
+
+/*-------------------*/
+/*-------table-------*/
+/*-------------------*/
+
+#roster {
+    text-align: center;
+    width:80%;
+    border: 1px solid black;
+    margin:auto;
+    border-collapse: collapse;
+}
+
+th p, td p{
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+th, td {
+    border-bottom: 1px solid black;
+}
+
+/*-------------------*/
+/*------discord------*/
+/*-------------------*/
+
+iframe{
+    display: block;
+    margin: auto;
+    width: 80%;
+    height: 50vh;
 }
