@@ -2,21 +2,13 @@
 /*-content+background*/
 /*-------------------*/
 
-body{
-    margin: auto;
+html{
     background-image: url(background3.jpg);
     background-size: cover;
-    height: 100%;
     width: 100%;
-    overflow-y: scroll;
-}
-
-#contentcontainer{
+    height: 100%;
     margin: 0 auto;
     padding: 0 auto;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(240, 240, 240, .85)
 }
 
 /*-------------------*/
@@ -31,13 +23,18 @@ body{
     text-align: center;
 }
 
+#rmpg a{
+    text-decoration: none;
+    color: black;
+}
+
 #frontlinkspan{
     margin: auto;
     margin-top: 1em;
     text-align: center;
 }
 
-#frontlinks{
+.frontlinks{
     font-size: 1em;
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
@@ -112,7 +109,7 @@ th, td {
 /*------discord------*/
 /*-------------------*/
 
-iframe{
+#discord{
     display: block;
     margin: auto;
     width: 80%;
