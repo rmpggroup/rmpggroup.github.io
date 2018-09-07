@@ -84,6 +84,15 @@ html{
 /*-------------------*/
 /*-------table-------*/
 /*-------------------*/
+@keyframes slidein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 100;
+  }
+}
 
 #roster {
     text-align: center;
@@ -91,6 +100,8 @@ html{
     border: 1px solid black;
     margin:auto;
     border-collapse: collapse;
+    animation-duration: 1s;
+    animation-name: slidein;
 }
 
 th p, td p{
@@ -114,4 +125,6 @@ th, td {
     margin: auto;
     width: 80%;
     height: 50vh;
+    animation-duration: 1s;
+    animation-name: slidein;
 }
